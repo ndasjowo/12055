@@ -1,0 +1,16 @@
+ Modify the source code to disable signature verification
+
+In the docker container:
+
+$ vi bootable/recovery/verifier.h
+Edit the line
+
+#define VERIFY_FAILURE        1
+to
+#define VERIFY_FAILURE        0
+
+This will still display the error message while updating the OTA.zip, but it won't abort.
+
+Build the recovery.img:
+
+# make recoveryimage
