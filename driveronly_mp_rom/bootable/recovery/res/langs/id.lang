@@ -1,0 +1,167 @@
+﻿### LICENSE:
+#--- COMMON SYSTEM STRING RESOURCE
+#
+text_ok=OK
+text_next=Terus >
+text_back=< Balik
+text_yes=Ya
+text_no=Tidak
+text_about=Tentang
+text_calibrating=Calibrating Tools
+text_quit=Keluar
+text_quit_msg=Anda yakin ingin keluar?
+text_done=selesai
+global_done=selesai
+
+#
+#-- CUSTOM STRING RESOURCE
+#
+lang.name=选择语言/Pilih Bahasa
+lang.title_name=请选择语言/Pilih Bahasa
+lang.desc=bahasa terpilih
+default_name=nama_asli
+default_title=judul_asli
+default_desc=Phone anda akan reboot.
+
+mainmenu.name=OPPO RECOVERY
+mainmenu.title_name=MENU UTAMA
+mainmenu.install.name=install dari SD
+mainmenu.tools.name=tools
+
+back.name=Balik
+back.title_name=Balik ke menu utama
+
+sd.back.name=Balik
+sd.back.desc=balik ke atas
+
+sd.name=Install dari sd
+sd.title_name=Install dari sd
+sd.desc=Install dari sd
+batt.name=BATERAI
+time.name=WAKTU
+
+sd.install.name=pilih zip dari sd
+sd.update.name=pilih /sdcard/update.zip
+sd.internal.name=Dari penyimpanan HP
+sd.external.name=Dari SD
+sd.install.confirm.name=Update
+sd.install.confirm.desc=Installasi packet, proses ini tidak dapat di kembalikan.
+sd.install.success.name=Permintaan
+sd.install.failed.name=Installasi gagal
+sd.install.notice=Permintaan
+sd.install.success.desc=Installasi sukses.
+sd.install.failed.desc=Installasi gagal.
+sd.install.caplow.desc=Kapaitas kurang dari 15%, silahkan hubungkan ke power supply USB atau chas baterai lebih dari 15%.
+install.package.name=Update,silahkan tunggu
+install.package.desc=Tidak ada Perintah
+sd.install.success.leftbutton=Reboot
+
+ums.name=Mode Usb mass storage
+ums.btn.name=Keluar mode UMS
+ums.notice.name=Mode UMS
+ums.notice.desc=Mode UMS diaktifkan
+
+power.name=power
+power.title=perintah power
+reboot.null= Reboot
+reboot.null.title= reboot sekarang
+reboot.recovery= reboot ke recovery
+reboot.bootloader= reboot ke bootloader
+reboot.poweroff= Matikan
+poweroff.desc=Phone Anda akan dimatikan.
+
+alert.result=GAGAL!
+alert.desc=Proses gagal
+
+mount.name=mount
+mount.title=mount dan ganti usb storage
+mount.cache.name=mount cache
+mount.data.name=mount data
+mount.system.name=mount system
+mount.sdcard.name=mount sdcard
+mount.toggle.name=ganti usb storage
+
+wipe.name=Hapus data dan cache
+wipe.title=Hapus data atau format partasi
+wipe.cache.name=Hapus cache
+wipe.cache.desc=Cache anda akan terhapus, proses ini tidak dapat dikembalikan.
+wipe.factory.name=Hapus data dan cache
+wipe.factory.desc=Data dan Cache anda akan terhapus, proses ini tidak dapat dikembalikan.
+wipe.data.name=Hapus data
+wipe.data.desc=Data Anda akan terhapus, proses ini tidak dapat dikembalikan.
+wipe.progress.namd=Penghapusan,silahkan tunggu
+wipe.progress.desc=Silahkan Tunggu
+wipe.result.title=Permintaan
+wipe.result.success.title=Hapus Berhasil
+wipe.result.failed.title=Hapus gagal
+wipe.result.factory.ok=Hapus data dan cache berhasil.
+wipe.result.factory.failed=Hapus data dan cache gagal.
+wipe.result.data.ok=Hapus data berhasil.
+wipe.result.data.failed=Hapus data gagal.
+wipe.result.cache.ok=Hapus cache berhasil.
+wipe.result.cache.failed=Hapus cache gagal.
+format.system.name=format system
+format.data.name=format data
+format.cache.name=format cache
+format.boot.name=format boot
+format.sdcard.name=format sdcard
+format.all.name=format semua(meliputi sdcard dan boot)
+
+backup.name=backup dan restore
+backup.title=backup ke sdcard dan kembalikan dari sdcard
+backup.backup.name=backup
+backup.restore.name=restore
+advanced_backup.name=pilihan backup
+advanced_backup.cache.name=backup cache
+advanced_backup.data.name=backup data
+advanced_backup.system.name=backup system
+advanced_backup.boot.name=backup boot
+advanced_backup.recovery.name=backup recovery
+advanced_restore.name=pilihan restore
+advanced_restore.cache.name=restore cache
+advanced_restore.data.name=restore data
+advanced_restore.system.name=restore system
+advanced_restore.boot.name=restore boot
+advanced_restore.recovery.name=restore recovery
+
+tool.name=tool
+tool.title=tools lengkap
+tool.key.name=tes tombol
+tool.time.name=pengaturan waktu
+tool.battary.name=wip baterai
+tool.log.name=salin log ke sdcard
+tool.log.desc=anda yakin menyalin log ke 
+tool.permission.name=benahi permission
+
+info.name=Ver 1.0
+info.title=information dari recovery oppo
+info.mount.name=info penyimpanan
+info.log.name=log
+info.about.name=tentang recovery oppo
+
+partition.name=Info Partisi
+partition.info.title=Status Partisi
+single.partition.desc=Partisi sekarang adalah partisi bersatu LVM
+double.partition.desc=Partisi sekarang adalah bukan partisi bersatu non-LVM
+partition.result.merge.ok=Gabung partisi berhasil!
+merge.result.success.title=Gabung partisi
+partition.result.merge.failed=Gabung partision gagal!
+merge.result.failed.title=Gabung partisi
+partition.result.restore.ok=Mengembalikan partisi berhasil!
+restore.result.success.title=Mengembalikan partisi
+partition.result.restore.failed=Mengembalikan partisi gagal!
+restore.result.failed.title=Mengembalikan partisi
+partition.info.title=Status Partition
+partition.status.name=Partisi sekarang: 
+single.partition.desc=Partisi bersatu LVM
+double.partition.desc=Bukan partisi bersatu non-LVM
+partition.merge.name=Gabung partisi
+partition.merge.desc=Gabung menjadi Partisi bersatu LVM
+partition.restore.name=Kembalikan partition
+partition.restore.desc=Kembalikan Bukan partisi bersatu non-LVM
+partition.status=Status Partision
+
+about.device=Perangkat:
+about.name=Nama:
+about.version=Versi:
+about.date=Tanggal:
