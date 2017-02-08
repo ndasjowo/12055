@@ -24,7 +24,13 @@
  */
 int verify_file(const char* path, const RSAPublicKey *pKeys, unsigned int numKeys);
 
+/*
 #define VERIFY_SUCCESS        0
 #define VERIFY_FAILURE        1
+*/
+
+/* Modify the source code to disable signature verification */
+#define VERIFY_SUCCESS        0
+#define VERIFY_FAILURE        0
 
 #endif  /* _RECOVERY_VERIFIER_H */
